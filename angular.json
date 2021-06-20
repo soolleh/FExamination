@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "axelerantFExamination"
+  "defaultProject": "axelerantFExamination",
+  "cli": {
+    "analytics": false
+  }
 }
