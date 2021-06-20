@@ -272,7 +272,9 @@
          border:2px solid darken($color: #D5D5D5, $amount: 20%);
         }
         &:checked ~ .checkbox-element{
-          background: url(../assets/radio_button.svg) no-repeat;
+          img{
+            opacity: 1;
+          }
           width: 25px;
           height: 25px;
           border:none;
@@ -289,6 +291,9 @@
         width: 25px;
         border: 2px solid #D5D5D5;
         border-radius: 50%;
+        img{
+          opacity: 0;
+        }
       }
     }
   }
